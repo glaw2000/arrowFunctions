@@ -33,6 +33,16 @@ console.log(sum2);
 const saySomething = Message => console.log(Message);
 saySomething('Hello there!!');
 
-const sayHello = () => console.log('hello')
+const sayHello = () => console.log('hello');
 sayHello();
+
 // Returning Multiple Lines
+
+const returnMultipleLines = () => (
+    `<p>
+    This is a multiline string!
+    </p>`
+)
+
+console.log(returnMultipleLines());
+
